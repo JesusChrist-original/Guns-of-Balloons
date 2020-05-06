@@ -30964,8 +30964,6 @@ GameObject:
   - component: {fileID: 1394080161}
   - component: {fileID: 1394080160}
   - component: {fileID: 1394080158}
-  - component: {fileID: 1394080159}
-  - component: {fileID: 1394080153}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -30973,18 +30971,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1394080153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1394080152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 816655b044db07446990a6912a77aed3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!143 &1394080154
 CharacterController:
   m_ObjectHideFlags: 0
@@ -31083,18 +31069,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   speedLeftRight: 35
---- !u!114 &1394080159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1394080152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510fb4178472a814a93d832597e3a294, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &1394080160
 SphereCollider:
   m_ObjectHideFlags: 0
